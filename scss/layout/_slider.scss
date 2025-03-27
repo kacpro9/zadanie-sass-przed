@@ -7,7 +7,8 @@
 		background-image: none;
 		opacity: 1;
 
-		.icon-prev, .icon-next {
+		.icon-prev,
+		.icon-next {
 			background-color: $color-primary;
 			width: $base-font-size * 2.5;
 			height: $base-font-size * 2.5;
@@ -46,15 +47,17 @@
 	.carousel-caption {
 		top: 20%;
 
-		p, h1 {	
+		p,
+		h1 {
 			color: $color-text-primary;
-			text-transform: capitalize;
+			text-transform: $text-transform-base;
 		}
 
 		h1 {
-			font-size: $base-font-size + 32;
+			font-size: $slider-font-size + 32;
 			margin-top: $baseline;
 			margin-bottom: $baseline;
+			letter-spacing: $letter-spacing-slider;
 		}
 
 		p {
@@ -63,18 +66,19 @@
 		}
 
 		.btn-primary {
-			margin-top: $baseline * 2;
-			font-size: $base-font-size - 2;
+			margin-top: $margin-top-button;
+			font-size: $slider-button-font-size;
 			padding: 10px 12px;
 		}
 	}
 
-	.icon-prev, .icon-next {
+	.icon-prev,
+	.icon-next {
 		top: 45%;
 	}
 }
 
-@media(min-width: 992px) and (max-width: 1200px)  {
+@media(min-width: 992px) and (max-width: 1200px) {
 
 	#main-slider {
 		top: 100px;
@@ -82,15 +86,17 @@
 		.carousel-caption {
 			top: 20%;
 
-			p, h1 {	
+			p,
+			h1 {
 				color: $color-text-primary;
-				text-transform: capitalize;
+				text-transform: $text-transform-base;
 			}
 
 			h1 {
-				font-size: $base-font-size + 20;
+				font-size: $slider-font-size + 20;
 				margin-top: $baseline;
 				margin-bottom: $baseline;
+				letter-spacing: $letter-spacing-slider;
 			}
 
 			p {
@@ -99,13 +105,14 @@
 			}
 
 			.btn-primary {
-				margin-top: $baseline * 2;
-				font-size: $base-font-size - 2;
+				margin-top: $margin-top-button;
+				font-size: $slider-button-font-size - 2;
 				padding: 10px 12px;
 			}
 		}
 
-		.icon-prev, .icon-next {
+		.icon-prev,
+		.icon-next {
 			top: 45%;
 		}
 	}
@@ -119,15 +126,17 @@
 		.carousel-caption {
 			top: 10%;
 
-			p, h1 {	
+			p,
+			h1 {
 				color: $color-text-primary;
-				text-transform: capitalize;
+				text-transform: $text-transform-base;
 			}
 
 			h1 {
-				font-size: $base-font-size + 10;
+				font-size: $slider-font-size + 10;
 				margin-top: $baseline;
 				margin-bottom: $baseline;
+				letter-spacing: $letter-spacing-slider;
 			}
 
 			p {
@@ -136,13 +145,14 @@
 			}
 
 			.btn-primary {
-				margin-top: $baseline;
-				font-size: $base-font-size - 2;
+				margin-top: $margin-top-button;
+				font-size: $slider-button-font-size - 2;
 				padding: 10px 12px;
 			}
 		}
 
-		.icon-prev, .icon-next {
+		.icon-prev,
+		.icon-next {
 			top: 45%;
 		}
 	}
@@ -156,15 +166,17 @@
 		.carousel-caption {
 			top: 5%;
 
-			p, h1 {	
+			p,
+			h1 {
 				color: $color-text-primary;
-				text-transform: capitalize;
+				text-transform: $text-transform-base;
 			}
 
 			h1 {
-				font-size: $base-font-size + 5;
+				font-size: $slider-font-size + 5;
 				margin-top: $baseline * 0.75;
 				margin-bottom: $baseline * 0.75;
+				letter-spacing: $letter-spacing-slider;
 			}
 
 			p {
@@ -173,13 +185,14 @@
 			}
 
 			.btn-primary {
-				margin-top: $baseline * 0.5;
-				font-size: $base-font-size - 2;
+				margin-top: $margin-top-button* 0.5;
+				font-size: $slider-button-font-size - 2;
 				padding: 5px 6px;
 			}
 		}
 
-		.icon-prev, .icon-next {
+		.icon-prev,
+		.icon-next {
 			top: 40%;
 		}
 	}
@@ -193,15 +206,17 @@
 		.carousel-caption {
 			top: 0;
 
-			p, h1 {	
+			p,
+			h1 {
 				color: $color-text-primary;
-				text-transform: capitalize;
+				text-transform: $text-transform-base;
 			}
 
 			h1 {
-				font-size: $base-font-size + 2;
+				font-size: $slider-font-size + 2;
 				margin-top: $margin-none;
 				margin-bottom: $margin-none;
+				letter-spacing: $letter-spacing-slider;
 			}
 
 			p {
@@ -211,13 +226,14 @@
 			}
 
 			.btn-primary {
-				margin-top: $base-font-size;
-				font-size: $base-font-size * 0.5;
+				margin-top: $margin-top-button;
+				font-size: $slider-button-font-size * 0.5;
 				padding: 5px;
 			}
 		}
 
-		.icon-prev, .icon-next {
+		.icon-prev,
+		.icon-next {
 			top: 45%;
 			width: $base-font-size * 1.5;
 			height: $base-font-size * 1.5;
@@ -235,15 +251,17 @@
 		.carousel-caption {
 			top: 0;
 
-			p, h1 {	
+			p,
+			h1 {
 				color: $color-text-primary;
-				text-transform: capitalize;
+				text-transform: $text-transform-base;
 			}
 
 			h1 {
-				font-size: $base-font-size * 0.75;
+				font-size: $slider-font-size * 0.75;
 				margin-top: $margin-none;
 				margin-bottom: $margin-none;
+				letter-spacing: $letter-spacing-slider;
 			}
 
 			p {
@@ -253,13 +271,14 @@
 			}
 
 			.btn-primary {
-				margin-top: $base-font-size * 0.75;
-				font-size: $base-font-size * 0.5;
+				margin-top: $margin-top-button * 0.75;
+				font-size: $slider-button-font-size * 0.5;
 				padding: 5px;
 			}
 		}
 
-		.icon-prev, .icon-next {
+		.icon-prev,
+		.icon-next {
 			top: 40%;
 			width: $base-font-size * 1.5;
 			height: $base-font-size * 1.5;
@@ -277,7 +296,8 @@
 		height: 100%;
 		position: absolute;
 
-		.item, .active {
+		.item,
+		.active {
 			height: 100%;
 
 			.carousel-caption {
@@ -291,8 +311,8 @@
 				}
 
 				img {
-				    height: 140px;
-				    width: 140px;
+					height: 140px;
+					width: 140px;
 				}
 			}
 		}
@@ -302,7 +322,8 @@
 		}
 	}
 
-	.icon-prev, .icon-next {
+	.icon-prev,
+	.icon-next {
 		position: absolute;
 	}
 }
@@ -311,7 +332,7 @@
 
 	#slider-testimonials {
 		min-height: 400px;
-		
+
 		.carousel-caption {
 
 			img {
@@ -330,7 +351,8 @@
 
 	.carousel-control {
 
-		.icon-prev, .icon-next {
+		.icon-prev,
+		.icon-next {
 			top: 45%;
 		}
 	}
@@ -339,8 +361,9 @@
 @media (max-width: 539px) {
 
 	#slider-testimonials {
-		
-		.icon-prev, .icon-next {
+
+		.icon-prev,
+		.icon-next {
 			top: 50%;
 			width: $base-font-size * 1.5;
 			height: $base-font-size * 1.5;

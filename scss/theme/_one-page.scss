@@ -3,6 +3,10 @@
 
 .t108-one-page {
 
+    #about, #services, #counter-progress, #team, #counters-numbers{
+       border-bottom-width: 150px;
+    }
+
     hr {
         margin-bottom: auto;
     }
@@ -163,12 +167,15 @@
 
         .portfolio-box:hover .portfolio-box-caption {
             opacity: 1;
+            transition-duration: 1s;
         }
     }
 
     #counters-services {
     background-color: $color-background;
     padding: ($baseline * 4) $padding-none $baseline;
+   
+    
 
         .icon-services {
             color: $color-primary;
@@ -177,6 +184,10 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
+            border-width: 25px;
+            opacity: 50%;
+            transform: rotate(45deg);
+            transition-duration: 0.5s;
         }
 
 
