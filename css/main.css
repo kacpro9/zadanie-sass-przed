@@ -12283,8 +12283,8 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   margin-bottom: 48px;
 }
 #icon-variants .about-columns .icon-about-blue, #icon-variants .about-columns .icon-about-bright, #icon-variants .about-columns .icon-about-dark {
-  width: 72px;
-  height: 72px;
+  width: 96px;
+  height: 96px;
   border-radius: 100%;
   line-height: 72px;
   color: #ffffff;
