@@ -30,7 +30,7 @@
         width: 96px;
         height: 96px;
         border-radius: 100%;
-        line-height: $base-font-size * 4.5;
+        line-height: 96px;
         background-color: $color-primary;
         margin: $margin-none auto $baseline;
       }
@@ -187,6 +187,8 @@
       border: 2px solid $color-primary;
       border-width: 25px;
       opacity: 50%;
+    }
+    .icon-services:hover {
       transform: rotate(45deg);
       transition-duration: 0.5s;
     }
